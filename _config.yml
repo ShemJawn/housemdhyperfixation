@@ -1,0 +1,8 @@
+theme: jekyll-theme-slate
+title: "House MD Hyperfixation"
+description: "A website about House MD"
+nav:
+  - title: "Home"
+    url: /
+  - title: "About House MD"
+    url: /About/AboutHouseMD.html
