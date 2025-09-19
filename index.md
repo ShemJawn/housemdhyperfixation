@@ -1,7 +1,7 @@
 # Welcome to my absolutely magnificent *hum hum* website!
-It's gonna be **entirely** dedicated to House MD (just in case the URL wasn't explicit enough)
+It's gonna be **entirely** dedicated to House MD (just in case the URL wasn't explicit enough), and I fully intend on rambling about it <3
 
-<img width="660" height="110" alt="House all seasons" src="https://github.com/user-attachments/assets/b21bf2b7-d222-4d55-a736-6e557dc0078d" />
+<img width="700" height="150" alt="House all seasons" src="https://github.com/user-attachments/assets/b21bf2b7-d222-4d55-a736-6e557dc0078d" />
 
 ### Silly memes
 <img width="368" height="460" alt="image" src="https://github.com/user-attachments/assets/0979f703-3eb2-4e3f-a94a-eb3edcde8371" />
