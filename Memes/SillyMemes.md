@@ -1,8 +1,5 @@
 ### Silly memes
 
-<img width="368" height="460" alt="image" src="https://github.com/user-attachments/assets/0979f703-3eb2-4e3f-a94a-eb3edcde8371" />
-<br>
-<br>
 <img width="368" height="232" alt="image" src="https://github.com/user-attachments/assets/53075a41-e16a-4ecc-9edf-2f01501da3ba" />
 <br>
 <br>
@@ -15,6 +12,8 @@
 <br>
 <br>
 ![746ffc9dc3144b9ec0d7d38c2cdf139c](https://github.com/user-attachments/assets/abf1c3ac-2d1c-4080-82fa-3791a43f195d)
-
+<br>
+<br>
+<img width="368" height="460" alt="image" src="https://github.com/user-attachments/assets/0979f703-3eb2-4e3f-a94a-eb3edcde8371" />
 
 
