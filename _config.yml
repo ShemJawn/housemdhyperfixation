@@ -1,10 +1,10 @@
 theme: jekyll-theme-slate
 title: "House MD Hyperfixation"
-description: "A website about House MD"
+description: "A silly little website about a 2004 TV show"
 nav:
   - title: "Home"
     url: /
   - title: "About House MD"
-    url: /About/AboutHouseMD.html
+    url: /About/AboutHouseMD.md
   - title: "Memes"
-    url: /Memes/SillyMemes.html
+    url: /Memes/SillyMemes.md
