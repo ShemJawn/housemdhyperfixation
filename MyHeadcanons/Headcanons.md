@@ -28,6 +28,7 @@ The middle ground is definitely the most common though.
 
 * Great cook but a terrible gardener.
 <br>
+
 #### James Wilson
 
 * He's got OCD.
