@@ -1,7 +1,8 @@
 ## What is canon ?
 
 Canon is what actually happens in a piece of media, it's what the author declared to be true.
-
+<br>
+<br>
 ## What is a headcanon?
 
 Headcanon is something that a fan believes with no actual evidence, but is still possible to be true within the narrative.
@@ -9,7 +10,8 @@ Headcanon is something that a fan believes with no actual evidence, but is still
 That said, some people enjoy making headcanons that diverge wildly from the source material, regardless of plausibility.
 
 The middle ground is definitely the most common though.
-
+<br>
+<br>
 ### My headcanons
 
 #### Greg House
@@ -25,7 +27,7 @@ The middle ground is definitely the most common though.
 * Doesn't like Shakespeare.
 
 * Great cook but a terrible gardener.
-
+<br>
 #### James Wilson
 
 * He's got OCD.
