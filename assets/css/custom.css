@@ -1,1 +1,22 @@
+.github-banner {
+  display: none !important;
+}
 
+@font-face {
+  font-family: 'QuartoBold';
+  src: url('../fonts/QuartoBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply QuartoBold to headings, navigation bar, and footer titles */
+h1, h2, h3, h4, h5, h6,
+nav,
+header h1,
+header h2,
+footer p {
+  font-family: 'QuartoBold', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Normal basic text remains unchanged */
