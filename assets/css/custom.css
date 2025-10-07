@@ -20,3 +20,40 @@ footer p {
 }
 
 /* Normal basic text remains unchanged */
+
+.custom-navbar {
+  background: #222;
+  padding: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  gap: 0; /* We'll handle spacing on the <a> */
+}
+
+.custom-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'QuartoBold', Arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+  padding: 0 1em;
+  /* Remove default margin-right if you had it */
+}
+
+/* Add spacing and vertical line between links except last */
+.custom-navbar a:not(:last-child)::after {
+  content: "|";
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: normal;
+  padding-left: 1em;
+}
+
+.custom-navbar a:last-child {
+  /* No extra padding or line after last */
+}
