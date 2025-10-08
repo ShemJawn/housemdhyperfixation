@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'QuartoBold';
-  src: url('../fonts/QuartoBold.woff2') format('woff2');
+  src: url('../fonts/QuartoBold.ttf') format('ttf');
   font-weight: bold;
   font-style: normal;
 }
