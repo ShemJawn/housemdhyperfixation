@@ -26,7 +26,7 @@ footer p {
   padding: 1em;
   margin-bottom: 2em;
   display: flex;
-  gap: 0; /* We'll handle spacing on the <a> */
+  align-items: center;
 }
 
 .custom-navbar a {
@@ -34,26 +34,28 @@ footer p {
   text-decoration: none;
   font-family: 'QuartoBold', Arial, sans-serif;
   font-weight: bold;
+  padding: 0 1.5em;      /* Controls the spacing between links */
   position: relative;
-  padding: 0 1em;
-  /* Remove default margin-right if you had it */
+  display: inline-block;
 }
 
-/* Add spacing and vertical line between links except last */
+/* Add vertical line between links except after the last one */
 .custom-navbar a:not(:last-child)::after {
   content: "|";
   color: #fff;
+  margin-left: 1.5em;    /* space between link text and "|" */
   position: absolute;
-  right: 0;
+  right: -1.5em;
   top: 0;
   bottom: 0;
   display: flex;
   align-items: center;
   height: 100%;
   font-weight: normal;
-  padding-left: 1em;
+  pointer-events: none;
 }
 
+/* Remove extra right padding from last link to avoid extra space */
 .custom-navbar a:last-child {
-  /* No extra padding or line after last */
+  padding-right: 0;
 }
