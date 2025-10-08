@@ -26,7 +26,7 @@ footer p {
   padding: 1em;
   margin-bottom: 2em;
   display: flex;
-  align-items: center;
+  gap: 0;
 }
 
 .custom-navbar a {
@@ -34,28 +34,12 @@ footer p {
   text-decoration: none;
   font-family: 'QuartoBold', Arial, sans-serif;
   font-weight: bold;
-  padding: 0 1.5em;      /* Controls the spacing between links */
-  position: relative;
+  padding: 0 1em;
   display: inline-block;
 }
 
-/* Add vertical line between links except after the last one */
-.custom-navbar a:not(:last-child)::after {
-  content: "|";
-  color: #fff;
-  margin-left: 1.5em;    /* space between link text and "|" */
-  position: absolute;
-  right: -1.5em;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  font-weight: normal;
-  pointer-events: none;
-}
-
-/* Remove extra right padding from last link to avoid extra space */
-.custom-navbar a:last-child {
-  padding-right: 0;
+.custom-navbar a + a {
+  border-left: 1px solid #fff;
+  margin-left: 1em;
+  padding-left: 1em;
 }
