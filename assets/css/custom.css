@@ -3,8 +3,8 @@
 }
 
 @font-face {
-  font-family: 'QuartoBold';
-  src: url('../fonts/QuartoBold.ttf') format('ttf');
+  font-family: 'Quarto';
+  src: url('../fonts/Quarto-Bold.ttf') format('ttf');
   font-weight: bold;
   font-style: normal;
 }
@@ -15,7 +15,7 @@ nav,
 header h1,
 header h2,
 footer p {
-  font-family: 'QuartoBold', Arial, sans-serif;
+  font-family: 'Quarto', Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -32,7 +32,7 @@ footer p {
 .custom-navbar a {
   color: #fff;
   text-decoration: none;
-  font-family: 'QuartoBold', Arial, sans-serif;
+  font-family: 'Quarto', Arial, sans-serif;
   font-weight: bold;
   padding: 0 1em;
   display: inline-block;
