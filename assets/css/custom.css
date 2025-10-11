@@ -3,10 +3,23 @@
 }
 
 @font-face {
+  font-family: 'Ideal Sans Pro Book';
+  src: url('../fonts/ideal-sans-book-pro.woff.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Quarto';
   src: url('../fonts/Quarto-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
+}
+
+/* Set base font for the whole site */
+body {
+  font-family: 'Ideal Sans Pro Book', Arial, sans-serif;
+  font-weight: normal;
 }
 
 /* Apply QuartoBold to headings, navigation bar, and footer titles */
@@ -18,8 +31,6 @@ footer p {
   font-family: 'Quarto', Arial, sans-serif;
   font-weight: bold;
 }
-
-/* Normal basic text remains unchanged */
 
 .custom-navbar {
   background: #222;
