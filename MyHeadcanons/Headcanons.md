@@ -29,9 +29,8 @@ The middle ground is **definitely** the most common, though.
 * Great cook but a terrible gardener.
 <br>
 <center> <img width="400" height="400" alt="Radiohead OK Computer album cover" src="https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856" 
-  /> <center/>
-
-    <br>
+  /> </center>
+<br>
     
 #### James Wilson
 
@@ -57,5 +56,5 @@ The middle ground is **definitely** the most common, though.
   
 <br>
 <center> <img width="400" height="400" alt="ABBA The Winner Takes It All album cover" src="https://upload.wikimedia.org/wikipedia/en/a/af/ABBA_-_The_Winner_Takes_It_All-Elaine.png" 
-  /> <center/>
+  /> </center>
 <br>
