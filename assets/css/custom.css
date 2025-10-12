@@ -1,3 +1,12 @@
+/* Custom colour palette */
+:root {
+  --colour-bg: #f0eeef;
+  --colour-text: #222222;
+  --colour-primary: #a21827; /* Header and footer */
+  --colour-navbar: #9a2130;
+  --colour-accent: #a21827;
+  --colour-border: #f0eeef;
+
 .github-banner {
   display: none !important;
 }
