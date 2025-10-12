@@ -8,6 +8,9 @@ And yes, I fully intend on rambling about it <3
 ### What you can expect to find here
 
 * Basic info about the series
+  
 * Memes
+  
 * My headcanons
+  
 * Fanfiction recommendations
