@@ -4,7 +4,7 @@
   --colour-text: #222222;
   --colour-primary: #a21827; /* Header and footer */
   --colour-navbar: #9a2130;
-  --colour-accent: #a21827;
+  --colour-accent: #b52b34; /* Links colour */
   --colour-border: #f0eeef;
 }
   
@@ -62,7 +62,7 @@ footer p {
 }
 
 .custom-navbar a + a {
-  border-left: 1px solid var(--colour-accent);
+  border-left: 1px solid var(--colour-navbar);
   margin-left: 1em;
   padding-left: 1em;
 }
@@ -74,7 +74,7 @@ footer p {
 /* Header and footer */
 header,
 footer {
-  background-colour: var(--colour-accent);
+  background-colour: var(--colour-primary);
   colour: #fff;
 }
 
@@ -85,5 +85,5 @@ a {
 }
 
 a:hover {
-  colour: var(--colour-navbar);
+  colour: var(--colour-accent);
 }
