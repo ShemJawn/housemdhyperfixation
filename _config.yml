@@ -10,6 +10,8 @@ nav:
     url: /Memes/SillyMemes.md
   - title: "My Headcanons"
     url: /Headcanons/MyHeadcanons.md
+  - title: "Fanfictions"
+    url: /Fanfictions/FanfictionRecommendation.md
 
 include:
   - assets
