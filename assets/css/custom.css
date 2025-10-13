@@ -87,3 +87,12 @@ a {
 a:hover {
   color: var(--color-accent);
 }
+
+/* Ensure header and footer background fill entire area */
+header,
+header .wrapper,
+footer,
+footer .wrapper {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+}
