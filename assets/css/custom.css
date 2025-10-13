@@ -96,3 +96,10 @@ footer .wrapper {
   background-color: var(--color-primary) !important;
   color: #fff !important;
 }
+
+/* Optional: make header/footer text centered and padded nicely */
+header,
+footer {
+  padding: 1.5em 0;
+  text-align: center;
+}
