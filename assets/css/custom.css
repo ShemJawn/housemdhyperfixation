@@ -88,18 +88,35 @@ a:hover {
   color: var(--color-accent);
 }
 
-/* Ensure header and footer background fill entire area */
+/* === Force header and footer colours for Jekyll Slate === */
+
 header,
-header .wrapper,
 footer,
-footer .wrapper {
+header.page-header,
+footer.site-footer,
+header .wrapper,
+footer .wrapper,
+.site-footer,
+.site-footer-credits {
   background-color: var(--color-primary) !important;
   color: #fff !important;
 }
 
-/* Optional: make header/footer text centered and padded nicely */
+/* Optional: adjust inner text/link color in footer */
+footer a,
+.site-footer a {
+  color: #fff !important;
+}
+
+footer a:hover,
+.site-footer a:hover {
+  color: var(--color-accent) !important;
+}
+
+/* Add some padding for consistency */
 header,
-footer {
+footer,
+header.page-header,
+footer.site-footer {
   padding: 1.5em 0;
-  text-align: center;
 }
