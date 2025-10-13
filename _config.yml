@@ -10,3 +10,7 @@ nav:
     url: /Memes/SillyMemes.md
   - title: "My Headcanons"
     url: /Headcanons/MyHeadcanons.md
+
+include:
+  - assets
+  - _includes
