@@ -120,3 +120,34 @@ header.page-header,
 footer.site-footer {
   padding: 1.5em 0;
 }
+
+/* === Force override for all header/footer background containers === */
+header,
+footer,
+header.page-header,
+footer.site-footer,
+div#header,
+div#footer,
+div.site-header,
+div.site-footer,
+div.wrapper header,
+div.wrapper footer,
+header .inner,
+footer .inner {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* Force all nested elements to inherit white text */
+header * ,
+footer * {
+  color: #fff !important;
+}
+
+/* Optional: make sure background covers full width */
+header,
+footer {
+  width: 100%;
+  display: block;
+}
