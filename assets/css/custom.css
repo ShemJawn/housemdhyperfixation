@@ -177,10 +177,3 @@ footer {
 #footer_wrap a:hover {
   color: var(--color-accent) !important;
 }
-
-/* Optional: spacing and alignment */
-#header_wrap,
-#footer_wrap {
-  padding: 1.5em 0;
-  text-align: center;
-}
