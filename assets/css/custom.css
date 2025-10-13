@@ -151,3 +151,36 @@ footer {
   width: 100%;
   display: block;
 }
+
+/* === Force header and footer background colors === */
+#header_wrap,
+#footer_wrap,
+#header_wrap.outer,
+#footer_wrap.outer {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+}
+
+/* Make sure the inner wrappers also use the right colors */
+#header_wrap .inner,
+#footer_wrap .inner {
+  background-color: transparent !important; /* removes inner gray block */
+  color: #fff !important;
+}
+
+/* Force text and links inside to stay white */
+#header_wrap *,
+#footer_wrap * {
+  color: #fff !important;
+}
+
+#footer_wrap a:hover {
+  color: var(--color-accent) !important;
+}
+
+/* Optional: spacing and alignment */
+#header_wrap,
+#footer_wrap {
+  padding: 1.5em 0;
+  text-align: center;
+}
