@@ -190,12 +190,24 @@ footer {
   text-align: center;
 }
 
-/* === Decorative image in the footer (bottom-right) === */
+/* === Footer avec image === */
 #footer_wrap {
-  position: relative;
-  background-image: url('/footer-image/PPTH-logo.png') !important;
+  background: var(--color-primary) !important;
+  background-image: url('/housemdhyperfixation/footer-image/PPTH-logo.png');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 120px auto;
-  padding-bottom: 3em;
+  color: #fff !important;
+  padding: 2.5em 1em 5em 1em; /* espace en bas pour ne pas écraser l’image */
+  text-align: center;
+}
+
+/* Garde le texte et liens blancs dans le footer */
+#footer_wrap *,
+#footer_wrap a {
+  color: #fff !important;
+}
+
+#footer_wrap a:hover {
+  color: var(--color-accent) !important;
 }
