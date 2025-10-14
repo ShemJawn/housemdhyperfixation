@@ -193,9 +193,9 @@ footer {
 /* === Decorative image in the footer (bottom-right) === */
 #footer_wrap {
   position: relative;
-  background-image: url('../../footer-image/PPTH-logo.png');
+  background-image: url('/footer-image/PPTH-logo.png') !important;
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 120px auto;
-  padding-bottom: 3em; /* évite que le texte chevauche l'image */
+  padding-bottom: 3em;
 }
