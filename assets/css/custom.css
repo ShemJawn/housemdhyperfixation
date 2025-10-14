@@ -152,23 +152,27 @@ footer {
   display: block;
 }
 
-/* === Force header and footer background colors === */
+/* === Force header and footer background colors (with gradient header) === */
 #header_wrap,
-#footer_wrap,
-#header_wrap.outer,
-#footer_wrap.outer {
-  background: var(--color-primary) !important; /* instead of background-color */
+#header_wrap.outer {
+  background: linear-gradient(to bottom, #a21827, #720002) !important; /* dégradé vertical */
   color: #fff !important;
 }
 
-/* Remove gradient or gray inner backgrounds */
+#footer_wrap,
+#footer_wrap.outer {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+}
+
+/* Remove gray inner backgrounds */
 #header_wrap .inner,
 #footer_wrap .inner {
   background: transparent !important;
   color: #fff !important;
 }
 
-/* Force text and links inside to stay white */
+/* Ensure text and links are white */
 #header_wrap *,
 #footer_wrap * {
   color: #fff !important;
