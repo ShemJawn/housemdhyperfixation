@@ -1,7 +1,8 @@
 ## What are fanfictions?
 
 Fanfictions are fiction written by a fan of, and featuring characters from, a particular TV series, film, etc. 
-
+<br>
+<br>
 ## Tags (keywords) used in descriptions
 
 ☺️ **Fluff** 🧁
@@ -9,7 +10,8 @@ In fanfic, *fluff* usually refers to light-hearted, sweet, and often romantic or
 
 💔 **Hurt/Comfort** ❤️‍🩹
 In fanfic, *hurt/comfort* heavily focuses on the interaction of a pair of characters; as the name suggests, one character is somehow hurt, and the other character provides comfort. It can be physically, mentally or emotionally.
-
+<br>
+<br>
 ## My fanfiction recommendations
 
 ### Fluff
