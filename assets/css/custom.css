@@ -1,10 +1,9 @@
-/* Custom colour palette */
 :root {
   --color-bg: #f0eeef;
   --color-text: #222222;
-  --color-primary: #a21827; /* Header and footer */
+  --color-primary: #a21827;
   --color-navbar: #a21827;
-  --color-accent: #b52b34; /* Links colour */
+  --color-accent: #b52b34;
   --color-border: #f0eeef;
 }
   
@@ -26,7 +25,6 @@
   font-style: normal;
 }
 
-/* Set base style for the whole site */
 body {
   font-family: 'Ideal Sans Pro Book', Arial, sans-serif;
   font-weight: normal;
@@ -34,7 +32,6 @@ body {
   color: var(--color-text);
 }
 
-/* Apply QuartoBold to headings, navigation bar, and footer titles */
 h1, h2, h3, h4, h5, h6,
 nav,
 header h1,
@@ -71,15 +68,12 @@ footer p {
   color: var(--color-accent);
 }
 
-/* Header and footer */
 header,
 footer {
   background-color: var(--color-primary);
   color: #fff;
 }
 
-
-/* Links */
 a {
   color: var(--color-accent);
 }
@@ -87,8 +81,6 @@ a {
 a:hover {
   color: var(--color-accent);
 }
-
-/* === Force header and footer colours for Jekyll Slate === */
 
 header,
 footer,
@@ -102,7 +94,6 @@ footer .wrapper,
   color: #fff !important;
 }
 
-/* Optional: adjust inner text/link color in footer */
 footer a,
 .site-footer a {
   color: #fff !important;
@@ -113,7 +104,6 @@ footer a:hover,
   color: var(--color-accent) !important;
 }
 
-/* Add some padding for consistency */
 header,
 footer,
 header.page-header,
@@ -121,7 +111,6 @@ footer.site-footer {
   padding: 1.5em 0;
 }
 
-/* === Force override for all header/footer background containers === */
 header,
 footer,
 header.page-header,
@@ -139,23 +128,20 @@ footer .inner {
   border: none !important;
 }
 
-/* Force all nested elements to inherit white text */
 header * ,
 footer * {
   color: #fff !important;
 }
 
-/* Optional: make sure background covers full width */
 header,
 footer {
   width: 100%;
   display: block;
 }
 
-/* === Force header and footer background colors (with gradient header) === */
 #header_wrap,
 #header_wrap.outer {
-  background: linear-gradient(to bottom, #a21827, #720002) !important; /* dégradé vertical */
+  background: linear-gradient(to bottom, #a21827, #720002) !important;
   color: #fff !important;
 }
 
@@ -165,14 +151,12 @@ footer {
   color: #fff !important;
 }
 
-/* Remove gray inner backgrounds */
 #header_wrap .inner,
 #footer_wrap .inner {
   background: transparent !important;
   color: #fff !important;
 }
 
-/* Ensure text and links are white */
 #header_wrap *,
 #footer_wrap * {
   color: #fff !important;
@@ -183,14 +167,12 @@ footer {
   color: var(--color-accent) !important;
 }
 
-/* Optional: padding and alignment */
 #header_wrap,
 #footer_wrap {
   padding: 1.5em 0;
   text-align: center;
 }
 
-/* === Footer avec image === */
 #footer_wrap {
   background: var(--color-primary) !important;
   background-image: url('/housemdhyperfixation/footer-image/PPTH-logo.png');
@@ -198,11 +180,10 @@ footer {
   background-position: bottom right;
   background-size: 120px auto;
   color: #fff !important;
-  padding: 2.5em 1em 5em 1em; /* espace en bas pour ne pas écraser l’image */
+  padding: 2.5em 1em 5em 1em;
   text-align: center;
 }
 
-/* Garde le texte et liens blancs dans le footer */
 #footer_wrap *,
 #footer_wrap a {
   color: #fff !important;
