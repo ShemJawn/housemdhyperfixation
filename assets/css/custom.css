@@ -192,3 +192,15 @@ footer {
 #footer_wrap a:hover {
   color: var(--color-accent) !important;
 }
+
+.custom-navbar,
+nav,
+nav.site-nav,
+.nav,
+.navbar,
+.navbar-inner {
+  background: var(--color-navbar) !important;    
+  color: #fff !important;                        
+}
+                    
+}
