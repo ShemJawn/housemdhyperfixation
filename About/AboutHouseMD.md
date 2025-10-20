@@ -60,4 +60,3 @@ The show follows Dr Gregory House (Hugh Laurie), a Vicodin-dependent and misanth
 * Rachel Taub
 * Sam Carr
 * Dominika Petrova
-* Amber Volakis
