@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Welcome to my ~~absolutely magnificent~~ website!
 It's gonna be **entirely** dedicated to House MD (just in case the URL isn't explicit enough) and the queer menace that is Greg House.
 And yes, I fully intend on rambling about it <3
